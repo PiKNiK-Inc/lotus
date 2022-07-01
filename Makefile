@@ -79,6 +79,9 @@ calibnet: build-devnets
 butterflynet: GOFLAGS+=-tags=butterflynet
 butterflynet: build-devnets
 
+sproutnet: GOFLAGS+=-tags=sproutnet
+sproutnet: build-devnets
+
 interopnet: GOFLAGS+=-tags=interopnet
 interopnet: build-devnets
 

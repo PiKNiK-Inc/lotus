@@ -1,3 +1,4 @@
+*.car
 /AppDir
 /appimage-builder-cache
 *.AppImage
