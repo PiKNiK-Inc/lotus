@@ -19,7 +19,7 @@ var DrandSchedule = map[abi.ChainEpoch]DrandEnum{
 	0: DrandMainnet,
 }
 
-const GenesisNetworkVersion = network.Version16
+const GenesisNetworkVersion = network.Version15
 
 var NetworkBundle = "butterflynet"
 var BundleOverrides map[actors.Version]string
