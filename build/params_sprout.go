@@ -21,7 +21,7 @@ var DrandSchedule = map[abi.ChainEpoch]DrandEnum{
 
 const GenesisNetworkVersion = network.Version16
 
-var NetworkBundle = "sproutnet"
+var NetworkBundle = "butterflynet"
 var BundleOverrides map[actors.Version]string
 
 const BootstrappersFile = "sproutnet.pi"
